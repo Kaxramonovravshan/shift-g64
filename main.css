@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(7, 7, 122);
+}
+
+.con {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.con ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  color: #fff;
+}
+
+.con button {
+  width: 120px;
+  height: 35px;
+
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1.8px solid #fff;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu-my {
+  display: none !important;
+}
+
+.sec-1 {
+  width: 100%;
+  height: 500px;
+}
+
+.sec1-con {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-box h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 53px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.text-box p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.text-box button {
+  width: 235px;
+  height: 50px;
+  border: none;
+  background-color: #023247;
+  box-shadow: 2px 2px 16px 0px #3131cf66;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15.44px;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    margin-bottom: 50px;
+  }
+  .con {
+    padding: 0 20px;
+  }
+
+  .con ul,
+  .con button {
+    display: none;
+  }
+
+  .menu-my {
+    display: block !important;
+    color: #fff;
+  }
+
+  .sec1-con {
+    flex-direction: column;
+    align-items: start;
+    padding: 0 20px;
+  }
+
+  .text-box h1 {
+    font-size: 30px;
+  }
+
+  .text-box p {
+    font-size: 14px;
+  }
+
+  .text-box button {
+    width: 200px;
+    height: 50px;
+  }
+
+  .text-box {
+    margin-bottom: 50px;
+  }
+
+  .img-box img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+}
